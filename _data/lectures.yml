@@ -83,94 +83,101 @@
 # readings_prefix: "/assets/notes/cs101-sp25-note"
 
 lectures:
-  - title: "Sign up for the Decal! To avoid dead links, see the forms above. We start a week later than standard classes."
-    # slides: "https://docs.google.com/presentation/d/18fP58xbaJQAKTzf3p1pW06lSWkT0umdlQCQuRwzsIhQ"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX9eGdDJv1UIYuMs0oYJ5DCa"
-    # readings:
-    #   - name: "WEeee woooooo"
-    #     link: "https://textbook.cs161.org/principles/principles.html"
+  # - title: "Sign up for the Decal! To avoid dead links, see the forms above. We start a week later than standard classes."
   - title: "What does it mean to tapeout a chip? Intro to the class, tapeouts, and the flow needed to get there!"
-    slides: "https://docs.google.com/presentation/d/1MQmefPVCwoWIm2sjUx51SAHfiAGYc5kFhwtxZlfqj5E/edit?usp=sharing"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_R0dlFGLnAxOEJtWXahfdN"
-    # rowspan: 2
-    # readings:
-    #   - name: "Ch. 2"
-    #     link: "https://textbook.cs161.org/memory-safety/x86.html"
-    #   - name: "x86/GDB Cheat Sheet"
-    #     link: "https://assets.cs161.org/proj1/cheatsheet.pdf"
-  - title: "Introduction to SoCs and their Parts + Chipyard. Introduction to SoCs and their various parts using Berkeley’s Rocket Chip - an SoC generator."
-    slides: "https://docs.google.com/presentation/d/1SOlAH2HoIVpsjZ_xQiNklMKtm7cAWAPUDBGVbMAmh1Q/edit?usp=sharing"
-    recording: "https://drive.google.com/file/d/1ITYl8p-dZms95uEeixSgLwpwaUiDCTzl/view?usp=drive_link"
-    # readings:
-    #   - name: "Ch. 3"
-    #     link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
-  # - title: "Holiday (No Lecture)"
-    # nonumber: true # skips assigning a number to this box
-  - title: "SoC Interconnects, Protocols, and More Chipyard. Figure out how SoC parts are interconnected and what that looks like in Chipyard (TileLink, Configs..)."
-    slides: "https://docs.google.com/presentation/d/10p2sQzC3XZAqg7wOSVbDPDusPO44bv5I3SCs60CjRlY/edit?usp=sharing"
-    recording: "https://drive.google.com/file/d/1cW1gmfTBbN_bwbi5AKcj0j2xkBXbQGUZ/view?usp=drive_link"
-    # readings:
-    #   - name: "Ch. 3"
-    #     link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
-    # extra: "[Sample extra link](https://google.com)"
+    slides: "https://docs.google.com/presentation/d/1gyJvZhGymjm9nZAifu0T5EQ7RWOB_BS2XwMhnS-TfPA/edit?usp=drive_link"
+  - title: "No Class - Holiday"
+    nonumber: true
+  - title: "Introduction to SoCs and their Parts"
+    # slides: ""
+  - title: "SoC Interconnects, Protocols"
+    # slides: 
   - title: "SoC Peripherals"
-    slides: "https://docs.google.com/presentation/d/1roZ63lv0KeLV7Jf_4vZ-UKwCxLSdVIGA"
-    recording: "https://drive.google.com/file/d/1TRGO0tzJebCERPHxWCtKQoIU2-EoD5_Z/view?usp=drive_link"
-    # nonumber: true # skips assigning a number to this box
-  - title: "Work Session"
-  - title: "Midterm Student Presentations. Make sure we’re _all_ on the same page regarding who’s aiming to do what before RTL Freeze."
-    slides: "https://docs.google.com/presentation/d/1hCmS6oBsMUvyfjgLSKft0X5WMsaZRuz8pgxGf_DN3qk/edit?usp=drive_link"
-    recording: "https://drive.google.com/file/d/1sK7kqSW4KPnSCXev0JYZ6WRFS50Z0TMy/view?usp=drive_link"
-    classes:
-      - schedule-red
-  - title: "**RTL FREEZE** The big RTL & verification rush!"
-    # video: "https://youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm"
-    # slides: "https://docs.google.com/presentation/d/1ZONpx6qlqR2GyIF2nL3zjuDiOVknApgFOVwMHagmskI"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_clJKxwAxzStm4ctkNDXvt"
-    # readings:
-    #   - name: "Ch. 4"
-    #     link: "https://textbook.cs161.org/memory-safety/mitigations.html"
-  - title: "SoC Verification"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    slides: "https://docs.google.com/presentation/d/17e6SkFyS5phgIPNyzbEwHvAWDMHBfi6o"
-    recording: "https://drive.google.com/file/d/1weE7lH9WAwCUzftfhsRmZYCvcR-CTquP/view?usp=drive_link"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
-  - title: "An Introduction to Physical Design"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    slides: "https://docs.google.com/presentation/d/1Kj8oM9H1kaa0Sb4ctOVKW39a06kpAODvZTYIyBEOFIc/edit?usp=sharing"
-    recording: "https://drive.google.com/file/d/1J5cJKTVvZq3a_Ez5-lfNQIERWTc-05Kb/view?usp=drive_link"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
-  - title: "Physical Design Applied: *.tcl Tour"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
-  - title: "Final Student Presentations / Design Review"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
-  - title: "Thanksgiving Break - No Meet"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
-    # classes:
-    #   - schedule-red
-  - title: "Guest Lecture: The Life of a Memory Request by Mukul Joshi from Nvidia"
-    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
-    slides: "https://drive.google.com/file/d/1bH7SilKztVKs4_aaJ8vSM7uFO_u9XvGt/view?usp=drive_link"
-    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
-    # readings:
-    #   - name: "Ch. 5"
-    #     link: "https://textbook.cs161.org/crypto/intro.html"
+    # slides:
+  - title: "SoC Verification: Conceptual"
+  - title: "SoC Verification: Applied"
+  - title: "VLSI & Physical Design"
+  - title: "Signoff Flow"
+  - title: "Float"
+  - title: "Float"
+  - title: "Float"
+  - title: "Project Updates / Presentations"
+
+ # - title: "What does it mean to tapeout a chip? Intro to the class, tapeouts, and the flow needed to get there!"
+ #    slides: "https://docs.google.com/presentation/d/1MQmefPVCwoWIm2sjUx51SAHfiAGYc5kFhwtxZlfqj5E/edit?usp=sharing"
+ #    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_R0dlFGLnAxOEJtWXahfdN"
+ #    # rowspan: 2
+ #    # readings:
+ #    #   - name: "Ch. 2"
+ #    #     link: "https://textbook.cs161.org/memory-safety/x86.html"
+ #    #   - name: "x86/GDB Cheat Sheet"
+ #    #     link: "https://assets.cs161.org/proj1/cheatsheet.pdf"
+ #  - title: "Introduction to SoCs and their Parts + Chipyard. Introduction to SoCs and their various parts using Berkeley’s Rocket Chip - an SoC generator."
+ #    slides: "https://docs.google.com/presentation/d/1SOlAH2HoIVpsjZ_xQiNklMKtm7cAWAPUDBGVbMAmh1Q/edit?usp=sharing"
+ #    recording: "https://drive.google.com/file/d/1ITYl8p-dZms95uEeixSgLwpwaUiDCTzl/view?usp=drive_link"
+ #    # readings:
+ #    #   - name: "Ch. 3"
+ #    #     link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
+ #  # - title: "Holiday (No Lecture)"
+ #    # nonumber: true # skips assigning a number to this box
+ #  - title: "SoC Interconnects, Protocols, and More Chipyard. Figure out how SoC parts are interconnected and what that looks like in Chipyard (TileLink, Configs..)."
+ #    slides: "https://docs.google.com/presentation/d/10p2sQzC3XZAqg7wOSVbDPDusPO44bv5I3SCs60CjRlY/edit?usp=sharing"
+ #    recording: "https://drive.google.com/file/d/1cW1gmfTBbN_bwbi5AKcj0j2xkBXbQGUZ/view?usp=drive_link"
+ #    # readings:
+ #    #   - name: "Ch. 3"
+ #    #     link: "https://textbook.cs161.org/memory-safety/vulnerabilities.html"
+ #    # extra: "[Sample extra link](https://google.com)"
+ #  - title: "SoC Peripherals"
+ #    slides: "https://docs.google.com/presentation/d/1roZ63lv0KeLV7Jf_4vZ-UKwCxLSdVIGA"
+ #    recording: "https://drive.google.com/file/d/1TRGO0tzJebCERPHxWCtKQoIU2-EoD5_Z/view?usp=drive_link"
+ #    # nonumber: true # skips assigning a number to this box
+ #  - title: "Work Session"
+ #  - title: "Midterm Student Presentations. Make sure we’re _all_ on the same page regarding who’s aiming to do what before RTL Freeze."
+ #    slides: "https://docs.google.com/presentation/d/1hCmS6oBsMUvyfjgLSKft0X5WMsaZRuz8pgxGf_DN3qk/edit?usp=drive_link"
+ #    recording: "https://drive.google.com/file/d/1sK7kqSW4KPnSCXev0JYZ6WRFS50Z0TMy/view?usp=drive_link"
+ #    classes:
+ #      - schedule-red
+ #  - title: "**RTL FREEZE** The big RTL & verification rush!"
+ #    # video: "https://youtube.com/playlist?list=PLnp31xXvnfRpb4EQp0tOFJNZUXHnxTfXm"
+ #    # slides: "https://docs.google.com/presentation/d/1ZONpx6qlqR2GyIF2nL3zjuDiOVknApgFOVwMHagmskI"
+ #    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_clJKxwAxzStm4ctkNDXvt"
+ #    # readings:
+ #    #   - name: "Ch. 4"
+ #    #     link: "https://textbook.cs161.org/memory-safety/mitigations.html"
+ #  - title: "SoC Verification"
+ #    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
+ #    slides: "https://docs.google.com/presentation/d/17e6SkFyS5phgIPNyzbEwHvAWDMHBfi6o"
+ #    recording: "https://drive.google.com/file/d/1weE7lH9WAwCUzftfhsRmZYCvcR-CTquP/view?usp=drive_link"
+ #    # readings:
+ #    #   - name: "Ch. 5"
+ #    #     link: "https://textbook.cs161.org/crypto/intro.html"
+ #  - title: "An Introduction to Physical Design"
+ #    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
+ #    slides: "https://docs.google.com/presentation/d/1Kj8oM9H1kaa0Sb4ctOVKW39a06kpAODvZTYIyBEOFIc/edit?usp=sharing"
+ #    recording: "https://drive.google.com/file/d/1J5cJKTVvZq3a_Ez5-lfNQIERWTc-05Kb/view?usp=drive_link"
+ #    # readings:
+ #    #   - name: "Ch. 5"
+ #    #     link: "https://textbook.cs161.org/crypto/intro.html"
+ #  - title: "Physical Design Applied: *.tcl Tour"
+ #    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
+ #    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
+ #    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
+ #    # readings:
+ #    #   - name: "Ch. 5"
+ #    #     link: "https://textbook.cs161.org/crypto/intro.html"
+ #  - title: "Final Student Presentations / Design Review"
+ #    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
+ #    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
+ #    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
+ #    # readings:
+ #    #   - name: "Ch. 5"
+ #    #     link: "https://textbook.cs161.org/crypto/intro.html"
+ #  - title: "Thanksgiving Break - No Meet"
+ #    # video: "https://www.youtube.com/playlist?list=PLnp31xXvnfRqyuN_xxm4o1Woa44dXW_N8"
+ #    # slides: "https://docs.google.com/presentation/d/1CnAthtm-3sjX8d3rJiedRVVAmFIyj_4z4kQ2gNg7074"
+ #    # recording: "https://www.youtube.com/playlist?list=PLfBkt1-_BHX_1xFvNccJVTpadyTgErwbD"
+ #    # readings:
+ #    #   - name: "Ch. 5"
+ #    #     link: "https://textbook.cs161.org/crypto/intro.html"
+ #    # classes:
+ #    #   - schedule-red

@@ -69,42 +69,62 @@
 #     - schedule-purple
 
 labs:
-  - nonumber: true
-  - title: "Lab 0, 1A, 1B"
-    link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
-    due: "09/26" 
-    parts:
-      - name: "Practical introduction to Git and Chisel. Test instructional account and Chipyard setup."
-    # extra: "[Special PDF](https://www.google.com)"
-    # classes:
-    #   - proj1 # adds the purple background
-  - title: "Lab 2 (A, B, C, optional: X)"
-    link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
-    due: "10/03" 
-    parts: 
-      - name: "Practical Chipyard intro. Step by step integration of EECS151 RISC-V core."
-  - title: "Lab 3"
-    link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
-    due: "10/10" 
-    parts:
-      - name: "Chipyard exploration to motivate starting own side projects."
-  - nonumber: true
-  - nonumber: true
-  - nonumber: true
-  - nonumber: true
-  # rowspan: 4
-  - title: "Lab 4"
-    link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
-    due: "11/14" 
-    parts:
-      - name: "Practical experience verifying OFO Tile and side project."
-  - nonumber: true
-  - title: "Lab 5"
-    link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
-    due: "12/05" 
-    parts:
-      - name: "Practical experience running PD. Preliminary numbers for projects."
-  - nonumber: true
-  - nonumber: true
-  - nonumber: true
-  - nonumber: true
+    - nonumber: true
+    - title: "Lab 0: Chisel"
+      link: "https://classroom.github.com/a/pA6WZITd"
+      due: "03/02"
+      parts:
+        - name: "Introduction to the Chisel Hardware Description Language"
+    - nonumber: true 
+    - title: "Lab 1: Introduction to the Sodor RISC-V Core"
+      # link: "https://classroom.github.com/a/pA6WZITd"
+      # due: "03/02"
+    - nonumber: true
+    - title: "Lab 2: Sodor RISC-V Core Verification & Peripherals alignment"
+    - nonumber: true
+    - title: "Lab 3: Peripherals Development"
+    - nonumber: true
+    - nonumber: true
+    - title: "Lab 4: Physical Design"
+    - nonumber: true
+    - nonumber: true
+     
+    
+  # - title: "Lab 0, 1A, 1B"
+  #   link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
+  #   due: "09/26" 
+  #   parts:
+  #     - name: "Practical introduction to Git and Chisel. Test instructional account and Chipyard setup."
+  #   # extra: "[Special PDF](https://www.google.com)"
+  #   # classes:
+  #   #   - proj1 # adds the purple background
+  # - title: "Lab 2 (A, B, C, optional: X)"
+  #   link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
+  #   due: "10/03" 
+  #   parts: 
+  #     - name: "Practical Chipyard intro. Step by step integration of EECS151 RISC-V core."
+  # - title: "Lab 3"
+  #   link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
+  #   due: "10/10" 
+  #   parts:
+  #     - name: "Chipyard exploration to motivate starting own side projects."
+  # - nonumber: true
+  # - nonumber: true
+  # - nonumber: true
+  # - nonumber: true
+  # # rowspan: 4
+  # - title: "Lab 4"
+  #   link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
+  #   due: "11/14" 
+  #   parts:
+  #     - name: "Practical experience verifying OFO Tile and side project."
+  # - nonumber: true
+  # - title: "Lab 5"
+  #   link: "https://github.com/ucb-eecs151tapeout/eecs151t-labs/"
+  #   due: "12/05" 
+  #   parts:
+  #     - name: "Practical experience running PD. Preliminary numbers for projects."
+  # - nonumber: true
+  # - nonumber: true
+  # - nonumber: true
+  # - nonumber: true

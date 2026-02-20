@@ -1,10 +1,10 @@
 ---
 name: Jim Fang
-pronouns: he/him
+pronouns: he/they
 role: TA
 email: yf328@berkeley.edu
 photo: jim-fang.png
-spaaccess: False
+spaaccess: True
 dspdata: False
 ---
 

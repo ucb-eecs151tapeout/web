@@ -18,7 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 #######################################################
 # Config you may need to change once per semester     #
 #######################################################
@@ -40,7 +39,7 @@ baseurl: ""
 
 # - Jekyll default variable.
 # - The full URL of your homepage.
-url: "https://ieee.github.io"
+url: "https://151tapeout.berkie.ee"
 
 # - Used in _includes/title.html and index.html
 # - Path to an image to display in two places:
@@ -49,7 +48,7 @@ url: "https://ieee.github.io"
 # - Leave blank to omit a logo.
 # - If you want the homepage to have a different logo from the sidebar,
 #   then edit index.html.
-logo: ""
+logo: "./assets/images/logo.png"
 
 # - Used in _includes/title.html
 # - Optional text that replaces site.title at the top of the sidebar when set.
@@ -59,30 +58,29 @@ shorthand_text: "EECS151 Tapeout"
 # - Can be used throughout the website (e.g. project specs).
 # - Example: In the spec, write "Pull from the skeleton-{{ site.semester_slug }} repo."
 #   This will automatically update to "skeleton-fa24" or "skeleton-sp25" each semester.
-semester_slug: "fa25"
-semester_full: "Fall 2025"
+semester_slug: "sp26"
+semester_full: "Spring 2026"
 
 # - Updates the top line of the homepage, i.e. the one that says
 #   "Instructor: EvanBot / Lecture: TuTh, 12:30–2:00 PM, Wheeler 150 [Zoom, Playlist]"
 # - Note: Instructor is pulled from the _staffers folder.
 lecture:
-  time: "Fri, 3:00–4:30 PM"
-  location:
-      name: "BWRC"
-      link: ""
+    time: "Monday, 3:30–5:30 PM"
+    location:
+        name: "Soda 606"
+        link: "https://esg.eecs.berkeley.edu/av-facilities-and-services-by-room/soda606/"
 heading_links:
-  - text: "Zoom"
-    url: "https://berkeley.zoom.us"
-  - text: "Playlist"
-    url: "https://www.youtube.com/playlist?list=PLp8QV47qJEg4fg0UAZzU2FeuZrs6XMjkK"
+    - text: "Zoom"
+      url: "https://berkeley.zoom.us"
+    - text: "Playlist"
+      url: "https://www.youtube.com/playlist?list=PLp8QV47qJEg4fg0UAZzU2FeuZrs6XMjkK"
 
 # - Used on staff.md to show students the staff email.
 staff_email: "151tapeout@ieee.berkeley.edu"
 
 # - Use this to show/hide the "announcements" feature on the homepage.
 # - Add your weekly announcements in the _announcements folder.
-enable_announcements: true
-
+enable_announcements: false
 
 #######################################################
 # Config to show/hide warnings on pages               #
@@ -93,7 +91,7 @@ under_construction: false
 
 # - Set this to true in the first few weeks of the semester
 #   if discussion times are uncertain (populates on calendar.md only).
-discussions_under_construction: true
+discussions_under_construction: false
 
 # - Set this to true to archive the semester and show a warning on every page.
 outdated: false
@@ -104,7 +102,6 @@ outdated: false
 # - This is only used in _layouts/page.html and _layouts/project.html.
 latest_sem: "https://151tapeout.berkie.ee/"
 
-
 #######################################################
 # Config for external links in the top-right corner   #
 #######################################################
@@ -112,26 +109,26 @@ latest_sem: "https://151tapeout.berkie.ee/"
 # - Leave "Dark Mode" unchanged. It uses Javascript to toggle dark mode.
 
 aux_links:
-  Dark Mode:
-    - "#"
-  Ed:
-    - "https://edstem.org"
-  # OH Queue:
-  #   - "https://oh.cs161.org"
-  Source Code on GitHub:
-    - "https://github.com/IEEEBerkeley/web-151tapeout"
+    Dark Mode:
+        - "#"
+    Discord:
+        - "https://berkie.ee/151t-discord"
+    # OH Queue:
+    #   - "https://oh.cs161.org"
+    Source Code on GitHub:
+        - "https://github.com/ucb-eecs151tapeout/web"
 
 #######################################################
 # Config for Right Table of Contents                  #
 #######################################################
 # These settings set the upper and lower bounds of the headings
-# that will be included in the right table of contents. (The 
+# that will be included in the right table of contents. (The
 # numbers correspond to h1, h2, h3, etc.)
 toc_min_heading: 2
 toc_max_heading: 6
 
 # When using JS, this sets the depth of the table of contents
-# that will be shown when the page loads. When you scroll into 
+# that will be shown when the page loads. When you scroll into
 # a section that has a deeper heading, the table of contents will
 # automatically expand to show that section.
 #
@@ -165,26 +162,26 @@ footer_content:
 # Formally define the collections that we use.
 # https://jekyllrb.com/docs/collections/
 collections:
-  staffers:
-  announcements:
+    staffers:
+    announcements:
 # Default layouts for each collection type
 # Sets the default layout for every markdown file in _staffers/ to 'staffer'
 # and the default subpath for images in _staffers/ to '/assets/staff/'
 # https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
-  - scope:
-      path: ""
-      type: staffers
-    values:
-      layout: staffer
-      subpath: "/assets/staff/"
+    - scope:
+          path: ""
+          type: staffers
+      values:
+          layout: staffer
+          subpath: "/assets/staff/"
 
 plugins:
-  - jekyll-seo-tag
+    - jekyll-seo-tag
 
 # This part is to silence sass deprecating warnings, remove after JTD fixes this upstream.
 # https://github.com/just-the-docs/just-the-docs/pull/1548
 # and https://github.com/jekyll/jekyll/issues/9686
 sass:
-  quiet_deps: true
-  silence_deprecations: ["import"] # https://github.com/just-the-docs/just-the-docs/issues/1607
+    quiet_deps: true
+    silence_deprecations: ["import"] # https://github.com/just-the-docs/just-the-docs/issues/1607

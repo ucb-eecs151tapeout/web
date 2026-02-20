@@ -70,51 +70,51 @@
 #   classes:
 #     - schedule-purple
 
-projects:
-  - nonumber: true
-  - title: "Get to know your potential collaborators!"
-    # link: "/proj1/deliverables"
-    # due: "2025/01/29"
-    # # "parts" can also be used for other recurring text in the boxes, like slides.
-    # parts:
-    #   - name: "Slides"
-    #     link: "https://docs.google.com/presentation/d/1RM9EOWqfaNzy9FP-Ud22fS3xz7xIQDFBXQe0jrEN5rQ"
-    # rowspan: "2"
-    # classes:
-    #   - schedule-yellow # adds the yellow background
-  - title: "Make sure you have access to your (functional) EECS151 CPU - if yours has issues, make some friends!"
-    # link: "/proj1"
-    # due: "2025/02/12"
-    # parts:
-    #   - name: "Slides"
-    #     link: "https://docs.google.com/presentation/d/1kwgVU2BIG5BOvkKF1JWrXf62zJnzIki5UrTTCzMeVs4"
-    # rowspan: "4"
-    # classes:
-    #   - schedule-blue # adds the blue background
-  - title: "Evaluate your status and form teams by next week. Decide if want to do a side project."
-    # link: "/proj2"
-    # hide_links: true
-    # due: "2025/02/19"
-    # parts:
-    #   - name: "Slides"
-    #     link: "https://docs.google.com/presentation/d/1bn1QHK7nLbirGsEKct5UTf2vp2k7NOTaMSuu9lZW0yU"
-    # # "extra" should be for one-off links. For recurring links, use "parts" instead.
-    # extra: |
-    #   [Extra link](https://www.google.com)
-    # rowspan: "2"
-    # classes:
-    #   - schedule-green # adds the green background
-  - title: "If OFO Tile works, work on side project - submit by next week a proposal and timeline."
-  - title: "Heat of side project work starts, for those doing that."
-  - title: "Side project option - by RTL freeze should be confident in the functionality of the system."
-  - nonumber: true
-  - title: "RTL done!"
-  - nonumber: true
-  - title: "Initial Physical Design"
-  - nonumber: true
-  - nonumber: true
-  - title: "Document what you've done! Final feedback form."
-  - title: "Fill out staff interest form!"
-  - nonumber: true # blank box in Week 5
-    rowspan: "2"
+# projects:
+#   - nonumber: true
+#   - title: "Get to know your potential collaborators!"
+#     # link: "/proj1/deliverables"
+#     # due: "2025/01/29"
+#     # # "parts" can also be used for other recurring text in the boxes, like slides.
+#     # parts:
+#     #   - name: "Slides"
+#     #     link: "https://docs.google.com/presentation/d/1RM9EOWqfaNzy9FP-Ud22fS3xz7xIQDFBXQe0jrEN5rQ"
+#     # rowspan: "2"
+#     # classes:
+#     #   - schedule-yellow # adds the yellow background
+#   - title: "Make sure you have access to your (functional) EECS151 CPU - if yours has issues, make some friends!"
+#     # link: "/proj1"
+#     # due: "2025/02/12"
+#     # parts:
+#     #   - name: "Slides"
+#     #     link: "https://docs.google.com/presentation/d/1kwgVU2BIG5BOvkKF1JWrXf62zJnzIki5UrTTCzMeVs4"
+#     # rowspan: "4"
+#     # classes:
+#     #   - schedule-blue # adds the blue background
+#   - title: "Evaluate your status and form teams by next week. Decide if want to do a side project."
+#     # link: "/proj2"
+#     # hide_links: true
+#     # due: "2025/02/19"
+#     # parts:
+#     #   - name: "Slides"
+#     #     link: "https://docs.google.com/presentation/d/1bn1QHK7nLbirGsEKct5UTf2vp2k7NOTaMSuu9lZW0yU"
+#     # # "extra" should be for one-off links. For recurring links, use "parts" instead.
+#     # extra: |
+#     #   [Extra link](https://www.google.com)
+#     # rowspan: "2"
+#     # classes:
+#     #   - schedule-green # adds the green background
+#   - title: "If OFO Tile works, work on side project - submit by next week a proposal and timeline."
+#   - title: "Heat of side project work starts, for those doing that."
+#   - title: "Side project option - by RTL freeze should be confident in the functionality of the system."
+#   - nonumber: true
+#   - title: "RTL done!"
+#   - nonumber: true
+#   - title: "Initial Physical Design"
+#   - nonumber: true
+#   - nonumber: true
+#   - title: "Document what you've done! Final feedback form."
+#   - title: "Fill out staff interest form!"
+#   - nonumber: true # blank box in Week 5
+#     rowspan: "2"
   

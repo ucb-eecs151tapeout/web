@@ -4,7 +4,7 @@ pronouns: he/him
 role: TA
 email: lorenhung@berkeley.edu
 photo: loren-hung.jpg
-spaaccess: False
+spaaccess: True
 dspdata: False
 ---
 

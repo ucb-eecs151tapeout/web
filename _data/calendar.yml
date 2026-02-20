@@ -21,11 +21,11 @@
 #   - Click "Get shareable link"
 #   - Copy the URL with calendar/u/0?cid= in it
 
-google_api_key: None
-google_calendar_id: None
+google_api_key: AIzaSyDeKnlg45t5RA6JLbR1S_l4GhpIzF7m1f4
+google_calendar_id: c_5667391b618ea271c4025a8fc2700937cc1d32a195e1873f00f570f251ee5a4b@group.calendar.google.com
 
-google_calendar_embed_link: None
-google_calendar_add_link: None
+google_calendar_embed_link: https://calendar.google.com/calendar/embed?src=c_5667391b618ea271c4025a8fc2700937cc1d32a195e1873f00f570f251ee5a4b%40group.calendar.google.com&ctz=America%2FLos_Angeles
+google_calendar_add_link: https://calendar.google.com/calendar/u/0?cid=Y181NjY3MzkxYjYxOGVhMjcxYzQwMjVhOGZjMjcwMDkzN2NjMWQzMmExOTVlMTg3M2YwMGY1NzBmMjUxZWU1YTRiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20
 
 # - Google Calendar events should all be prefixed "[CS101 SP25]" so that students
 #   adding it to their calendar see "[CS101 SP25] Lecture" instead of just "Lecture".
@@ -35,7 +35,7 @@ google_calendar_add_link: None
 #   when rendering the website.
 # - Note the trailing space is included here too, so that "[CS101 SP25] Lecture"
 #   becomes "Lecture", not " Lecture".
-remove_prefix: "[CS101 SP25] "
+remove_prefix: ""
 
 # You can set up your own categories that are filtered and colored as you choose. Every
 # event can only be matched to one category. The order that entries are provided in below
@@ -64,14 +64,14 @@ remove_prefix: "[CS101 SP25] "
 # - Exam: Include "Exam", "Quest", "Midterm", "MT", or "Final" in the name
 # - Review Session: Include "Review Session" in the name
 categories:
-  - name: "Office Hours"
-    match: "instructor"
-    lightTheme:
-      --event-background: "#BDF1FC"
-      --event-border-color: "#108DA6"
-    darkTheme:
-      --event-background: "#0B5260"
-      --event-border-color: "#BDF1FC"
+  # - name: "Office Hours"
+  #   match: "instructor"
+  #   lightTheme:
+  #     --event-background: "#BDF1FC"
+  #     --event-border-color: "#108DA6"
+  #   darkTheme:
+  #     --event-background: "#0B5260"
+  #     --event-border-color: "#BDF1FC"
   - name: "Office Hours"
     match: "office hours"
     lightTheme:
@@ -88,51 +88,51 @@ categories:
     darkTheme:
       --event-background: "#363197"
       --event-border-color: "#CAC8EB"
-  - name: "Discussion"
-    match: "bridge"
-    lightTheme:
-      --event-background: "#EAB59E"
-      --event-border-color: "#B43600"
-    darkTheme:
-      --event-background: "#7A2500"
-      --event-border-color: "#EAB59E"
-  - name: "Discussion"
-    match: "exam prep"
-    lightTheme:
-      --event-background: "#F4EFC3"
-      --event-border-color: "#B4B11C"
-    darkTheme:
-      --event-background: "#4C4B10"
-      --event-border-color: "#F4EFC3"
-  - name: "Discussion"
-    match: "discussion"
-    lightTheme:
-      --event-background: "#ECD9C9"
-      --event-border-color: "#8D5C32"
-    darkTheme:
-      --event-background: "#6A4625"
-      --event-border-color: "#ECD9C9"
-  - name: "Project Party"
-    match: "(?=.*project)(?=.*party)"
-    lightTheme:
-      --event-background: "#EBC8EB"
-      --event-border-color: "#873179"
-    darkTheme:
-      --event-background: "#4D134D"
-      --event-border-color: "#EBC8EB"
-  - name: "Review Session"
-    match: "review session"
-    lightTheme:
-      --event-background: "#EBC8EB"
-      --event-border-color: "#873179"
-    darkTheme:
-      --event-background: "#4D134D"
-      --event-border-color: "#EBC8EB"
-  - name: "Exam"
-    match: "exam|quest|midterm|mt|final"
-    lightTheme:
-      --event-background: "#E2E2E2"
-      --event-border-color: "#A5A5A5"
-    darkTheme:
-      --event-background: "#363187"
-      --event-border-color: "#CAC8EB"
+  # - name: "Discussion"
+  #   match: "bridge"
+  #   lightTheme:
+  #     --event-background: "#EAB59E"
+  #     --event-border-color: "#B43600"
+  #   darkTheme:
+  #     --event-background: "#7A2500"
+  #     --event-border-color: "#EAB59E"
+  # - name: "Discussion"
+  #   match: "exam prep"
+  #   lightTheme:
+  #     --event-background: "#F4EFC3"
+  #     --event-border-color: "#B4B11C"
+  #   darkTheme:
+  #     --event-background: "#4C4B10"
+  #     --event-border-color: "#F4EFC3"
+  # - name: "Discussion"
+  #   match: "discussion"
+  #   lightTheme:
+  #     --event-background: "#ECD9C9"
+  #     --event-border-color: "#8D5C32"
+  #   darkTheme:
+  #     --event-background: "#6A4625"
+  #     --event-border-color: "#ECD9C9"
+  # - name: "Project Party"
+  #   match: "(?=.*project)(?=.*party)"
+  #   lightTheme:
+  #     --event-background: "#EBC8EB"
+  #     --event-border-color: "#873179"
+  #   darkTheme:
+  #     --event-background: "#4D134D"
+  #     --event-border-color: "#EBC8EB"
+  # - name: "Review Session"
+  #   match: "review session"
+  #   lightTheme:
+  #     --event-background: "#EBC8EB"
+  #     --event-border-color: "#873179"
+  #   darkTheme:
+  #     --event-background: "#4D134D"
+  #     --event-border-color: "#EBC8EB"
+  # - name: "Exam"
+  #   match: "exam|quest|midterm|mt|final"
+  #   lightTheme:
+  #     --event-background: "#E2E2E2"
+  #     --event-border-color: "#A5A5A5"
+  #   darkTheme:
+  #     --event-background: "#363187"
+  #     --event-border-color: "#CAC8EB"

@@ -1,8 +1,0 @@
-due_date: 2024-09-06
-gradescope: 
-  checkpoint: "https://www.gradescope.com/courses/831532/assignments/4780598"
-  autograder: "https://www.gradescope.com/courses/831532/assignments/4780621"
-  writeup: "https://www.gradescope.com/courses/831532/assignments/4780623"
-
-example_string_attribute: "hello"
-example_link_attribute: "https://cs161.org"

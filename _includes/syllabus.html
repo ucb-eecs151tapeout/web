@@ -56,9 +56,9 @@
         <th style="width:{{ site.data.syllabus.lecture_width }}">Lecture</th>
         {% comment %}<th style="width:{{ site.data.syllabus.readings_width }}">Readings</th>{% endcomment %}
         <!-- <th style="width:{{ site.data.syllabus.discussion_width }}">Labs</th> -->
-        <th style="width:{{ site.data.syllabus.labs_width }}">Labs</th>
+        <th style="width:{{ site.data.syllabus.labs_width }}">Labs & Project Work</th>
         <!-- <th style="width:{{ site.data.syllabus.homework_width }}">Lab Due</th> -->
-        <th style="width:{{ site.data.syllabus.project_width }}">Project Deliverable</th>
+        <!--<th style="width:{{ site.data.syllabus.project_width }}">Project Deliverable</th>-->
       </tr>
     </thead>
 
@@ -423,7 +423,8 @@
                 {%- assign homework_rowspan = homework_rowspan | plus: -1 -%}
               {%- endif -%}
               {%- endcomment -%}
-
+              
+              {%- comment -%}
               {%- comment -%}
                 - Render the project column.
                 - For simplicity, the code for each column should be kept identical (only
@@ -449,6 +450,7 @@
               {%- else -%}
                 {%- assign project_rowspan = project_rowspan | plus: -1 -%}
               {%- endif -%}
+            {%- endcomment -%}
             </tr>
           {%- endfor -%}
         {%- endfor -%}
