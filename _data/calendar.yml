@@ -21,7 +21,7 @@
 #   - Click "Get shareable link"
 #   - Copy the URL with calendar/u/0?cid= in it
 
-google_api_key: AIzaSyDeKnlg45t5RA6JLbR1S_l4GhpIzF7m1f4
+google_api_key: AIzaSyDeKnlg45t5RA6JLbR1S_l4GhpIzF7m1f4 # dont worry, this is scoped to the website only + restricted to calendar API
 google_calendar_id: c_5667391b618ea271c4025a8fc2700937cc1d32a195e1873f00f570f251ee5a4b@group.calendar.google.com
 
 google_calendar_embed_link: https://calendar.google.com/calendar/embed?src=c_5667391b618ea271c4025a8fc2700937cc1d32a195e1873f00f570f251ee5a4b%40group.calendar.google.com&ctz=America%2FLos_Angeles
